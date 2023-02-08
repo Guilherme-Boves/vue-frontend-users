@@ -1,6 +1,9 @@
-# usersfrontend
+# Vue - Frontend project
 
-## Project setup
+## Backend Project - https://github.com/Guilherme-Boves/express-api-rest-users
+
+
+### Project setup
 ```
 yarn install
 ```
@@ -19,6 +22,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
