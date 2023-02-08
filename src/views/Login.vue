@@ -40,9 +40,10 @@ export default {
         password: this.password
       }
 
-      axios.post(url+"/login", user).then(() => {
+      axios.post(url+"/login", user).then((res) => {        
+        localStorage.setItem('token', res.data.token);
         this.$router.push({name: 'home'})
-      }).catch(err => {
+      }).catch(err => {        
         this.error = err.response.data.err
       })
      
